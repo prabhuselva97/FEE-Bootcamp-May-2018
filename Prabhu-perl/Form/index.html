@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ID CARD FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    
+</head>
+<body><center><h1>EMPLOYEE ID CARD FORM</h1></center>
+    <form >
+        <div class="form-control">
+          <label for="inputEmail3" class="col-sm-2 control-label">First Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="firstName" >
+            <span class="errorMessage">Enter valid firstName</span>
+          </div>
+        </div><br><br>
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Full Name  </label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="fullName" >
+            <span class="errorMessage">Enter valid fullName</span>
+          </div>
+        </div><br><br>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Designation   </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="designation" >
+              <span class="errorMessage">Enter valid designation</span>
+            </div>
+          </div><br><br>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">EmployeeCode  </label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="employeeCode" >
+              <span class="errorMessage">Enter valid EmployeeCode</span>
+            </div>
+          </div><br><br>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">BloodGroup  </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="bloodGroup" >
+              <span class="errorMessage">Enter valid EmployeeCode</span>
+            </div>
+          </div><br><br>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">ReasonForIssue  </label>
+            <div class="col-sm-10">
+                <input type="radio" name="reason" value="New Employee" class="form-control" > New Employee
+                <input type="radio" name="reason" value="Lost/Defaced" class="form-control" >Lost/Defaced
+                <input type="radio" name="reason" value="Conversion" class="form-control" >Conversion
+                <input type="radio" name="reason" value="Designation Change" class="form-control" >Designation Change
+              <span class="errorMessage">Enter valid EmployeeCode</span>
+            </div>
+          </div><br><br>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">DateOfJoining  </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="dateOfJoining" >
+              <span class="errorMessage">Enter valid DateOfJoining</span>
+            </div>
+          </div><br><br>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Virtusa Email  </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="vemail" pattern="[a-z0-9._%+-]+@virtusa.com" required >
+              <span class="errorMessage">Enter valid Virtusa Email  </span>
+            </div>
+          </div><br><br>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Mobile Number  </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="mobile" required >
+              <span class="errorMessage">Enter valid Virtusa Email  </span>
+            </div>
+          </div><br><br>
+
+        
+        <div class="form-group center">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-default">Sign in</button>
+          </div>
+        </div>
+      </form>
+<script src="js/jquery.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
